@@ -1,0 +1,56 @@
+.insert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gray-500);
+  padding: 1rem;
+  gap: 0.75rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  align-items: center;
+  border: 1px solid var(--gray-400);
+}
+
+.insert p {
+  font-size: 0.875rem;
+  line-height: 1.18rem;
+  color: var(--gray-100);
+  margin-right: auto;
+}
+
+p.textCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+
+
+.del {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+}
+
+.ok {
+ width: 100%;
+ height: 100%;
+ color: var(--purple);
+ max-width: 1.125rem;
+ height: 1.125rem;
+ background: none;
+ border: 2px solid var(--purple);
+ border-radius: 50%;
+  
+}
+
+.ok div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+}
+
+.del:hover {
+  color: var(--danger);
+}
